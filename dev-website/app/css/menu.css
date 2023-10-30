@@ -1,0 +1,32 @@
+.menu-bg {
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    background-color: var(--color-secondary);
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.menu-item {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    color: #222;
+    border-radius: 4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+.menu-active {
+    padding: 1rem 2rem;
+    color: var(--color-primary);
+    background-color: rgba(34, 167, 179, 0.2);
+}
+
